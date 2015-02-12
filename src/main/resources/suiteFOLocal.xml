@@ -1,0 +1,9 @@
+<suites>
+    <suite name="local">
+        <dataSets>
+        </dataSets>
+        <stories name="stories">
+            <story include="1" scenarios="1" name="NewUserInternalJobApplicationWithQuestionnaire.story" datasets="InternalJobWithQuestionnaire.groovy" />
+        </stories>
+    </suite>
+</suites>

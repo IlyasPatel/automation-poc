@@ -1,0 +1,482 @@
+[
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.co.uk",
+        "labels": [
+            "UK"
+        ],
+        "language": "en",
+        "localeUri": "uk-en",
+        "network": "UK",
+        "defaultCountryId": "2635167",
+        "defaultCountryName": "United Kingdom",
+        "locale": "en_GB",
+        "defaultNewsletterSubscriptions": [
+            "UK"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.com",
+        "labels": [
+            "US"
+        ],
+        "language": "us",
+        "localeUri": "us-en",
+        "network": "US",
+        "defaultCountryId": "6252001",
+        "defaultCountryName": "USA",
+        "locale": "us_US",
+        "defaultNewsletterSubscriptions": [
+            "US"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.de",
+        "labels": [
+            "DE"
+        ],
+        "language": "de",
+        "localeUri": "de-de",
+        "network": "DE",
+        "defaultCountryId": "2921044",
+        "defaultCountryName": "Deutschland",
+        "locale": "de_DE",
+        "defaultNewsletterSubscriptions": [
+            "GERMANY"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.de/en",
+        "labels": [
+            "German-EN"
+        ],
+        "language": "en",
+        "localeUri": "de-en",
+        "network": "DE",
+        "defaultCountryId": "2921044",
+        "defaultCountryName": "Germany",
+        "locale": "en_DE",
+        "defaultNewsletterSubscriptions": [
+            "GERMANY"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.fr",
+        "labels": [
+            "France",
+            "FR"
+        ],
+        "language": "fr",
+        "localeUri": "fr-fr",
+        "network": "FR",
+        "defaultCountryId": "3017382",
+        "defaultCountryName": "France",
+        "locale": "fr_FR",
+        "defaultNewsletterSubscriptions": [
+            "FRANCE"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.fr/en",
+        "labels": [
+            "France-EN"
+        ],
+        "language": "en",
+        "localeUri": "fr-en",
+        "network": "FR",
+        "defaultCountryId": "3017382",
+        "defaultCountryName": "France",
+        "locale": "en_FR",
+        "defaultNewsletterSubscriptions": [
+            "FRANCE"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.it",
+        "labels": [
+            "Italy",
+            "IT"
+        ],
+        "language": "en",
+        "localeUri": "it-it",
+        "network": "IT",
+        "defaultCountryId": "3175395",
+        "defaultCountryName": "Italy",
+        "locale": "en_IT",
+        "defaultNewsletterSubscriptions": [
+            "ITALY"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.com.au",
+        "labels": [
+            "AU"
+        ],
+        "language": "en",
+        "localeUri": "au-en",
+        "network": "AU",
+        "defaultCountryId": "2077456",
+        "defaultCountryName": "Australia",
+        "locale": "en_AU",
+        "defaultNewsletterSubscriptions": [
+            "AUSTRALIA"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.be",
+        "labels": [
+            "BE",
+            "BE-Default",
+            "Belgium-FR"
+        ],
+        "language": "fr",
+        "localeUri": "be-fr",
+        "network": "BE",
+        "defaultCountryId": "2802361",
+        "defaultCountryName": "Belgium",
+        "locale": "fr_BE",
+        "defaultNewsletterSubscriptions": [
+            "BELGIUM_IN_FRENCH"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.be/en",
+        "labels": [
+            "Belgium-EN"
+        ],
+        "language": "en",
+        "localeUri": "be-en",
+        "network": "BE",
+        "defaultCountryId": "2802361",
+        "defaultCountryName": "Belgium",
+        "locale": "en_BE",
+        "defaultNewsletterSubscriptions": [
+            "BELGIUM_IN_FRENCH"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers-canada.com",
+        "labels": [
+            "CA",
+            "Canada"
+        ],
+        "language": "us",
+        "localeUri": "ca-en",
+        "network": "CA",
+        "defaultCountryId": "6251999",
+        "defaultCountryName": "Canada",
+        "locale": "us_CA",
+        "defaultNewsletterSubscriptions": [
+            "CANADA"
+        ]
+    },
+    {
+         "homepageUrl": "http://www{0}.efinancialcareers.cn",
+         "labels": [
+             "CN",
+             "China"
+         ],
+         "language": "cn",
+         "localeUri": "cn-cn",
+         "network": "CN",
+         "defaultCountryId": "1814991",
+         "defaultCountryName": "China",
+         "locale": "cmn_CN",
+         "defaultNewsletterSubscriptions": [
+             "CHINA"
+         ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.cn/en",
+        "labels": [
+            "CN",
+            "China"
+        ],
+        "language": "en",
+        "localeUri": "cn-en",
+        "network": "CN",
+        "defaultCountryId": "1814991",
+        "defaultCountryName": "China",
+        "locale": "en_CN",
+        "defaultNewsletterSubscriptions": [
+            "CHINA"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.jp",
+        "labels": [
+            "JP",
+            "Japan"
+        ],
+        "language": "en",
+        "localeUri": "jp-en",
+        "network": "JP",
+        "defaultCountryId": "1861060",
+        "defaultCountryName": "Japan",
+        "locale": "us_JP",
+        "defaultNewsletterSubscriptions": [
+            "SINGAPORE"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.dk",
+        "labels": [
+            "DK",
+            "Denmark"
+        ],
+        "language": "en",
+        "localeUri": "dk-en",
+        "network": "DK",
+        "defaultCountryId": "2623032",
+        "defaultCountryName": "Denmark",
+        "locale": "en_DK",
+        "defaultNewsletterSubscriptions": [
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.fi",
+        "labels": [
+            "FI",
+            "Finland"
+        ],
+        "language": "en",
+        "localeUri": "fi-en",
+        "network": "FI",
+        "defaultCountryId": "660013",
+        "defaultCountryName": "Finland",
+        "locale": "en_FI",
+        "defaultNewsletterSubscriptions": [
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.hk",
+        "labels": [
+            "HK",
+            "Hong-Kong"
+        ],
+        "language": "en",
+        "localeUri": "hk-en",
+        "network": "HK",
+        "defaultCountryId": "1819730",
+        "defaultCountryName": "Hong Kong",
+        "locale": "en_HK",
+        "defaultNewsletterSubscriptions": [
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.ie",
+        "labels": [
+            "IE",
+            "Ireland"
+        ],
+        "language": "en",
+        "localeUri": "ie-en",
+        "network": "IE",
+        "defaultCountryId": "2963597",
+        "defaultCountryName": "Ireland",
+        "locale": "en_IE",
+        "defaultNewsletterSubscriptions": [
+            "IRELAND"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.lu",
+        "labels": [
+            "LU",
+            "LU-Default",
+            "Luxembourg-FR"
+        ],
+        "language": "fr",
+        "localeUri": "lu-fr",
+        "network": "LU",
+        "defaultCountryId": "2960313",
+        "defaultCountryName": "Luxembourg",
+        "locale": "fr_LU",
+        "defaultNewsletterSubscriptions": [
+            "LUXEMBOURG"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.lu/en",
+        "labels": [
+            "Luxembourg-EN"
+        ],
+        "language": "en",
+        "localeUri": "lu-en",
+        "network": "LU",
+        "defaultCountryId": "2960313",
+        "defaultCountryName": "Luxembourg",
+        "locale": "en_LU",
+        "defaultNewsletterSubscriptions": [
+            "LUXEMBOURG"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.lu/de",
+        "labels": [
+            "Luxembourg-DE"
+        ],
+        "language": "de",
+        "localeUri": "lu-de",
+        "network": "LU",
+        "defaultCountryId": "2960313",
+        "defaultCountryName": "Luxembourg",
+        "locale": "de_LU",
+        "defaultNewsletterSubscriptions": [
+            "LUXEMBOURG"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers-gulf.com",
+        "labels": [
+            "GULF",
+            "middle-east"
+        ],
+        "language": "en",
+        "localeUri": "gulf-en",
+        "network": "GF",
+        "defaultCountryId": "-18",
+        "defaultCountryName": "Gulf",
+        "locale": "en_GULF",
+        "defaultNewsletterSubscriptions": [
+            "GULF"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.nl",
+        "labels": [
+            "NL",
+            "NL-Default"
+        ],
+        "language": "nl",
+        "localeUri": "nl-nl",
+        "network": "NL",
+        "defaultCountryId": "2750405",
+        "defaultCountryName": "Netherlands",
+        "locale": "en_NL",
+        "defaultNewsletterSubscriptions": [
+            "NETHERLANDS"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers-norway.com",
+        "labels": [
+            "norway"
+        ],
+        "language": "en",
+        "localeUri": "no-en",
+        "network": "NO",
+        "defaultCountryId": "3144096",
+        "defaultCountryName": "Norway",
+        "locale": "en_NO",
+        "defaultNewsletterSubscriptions": [
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.ru",
+        "labels": [
+            "russia"
+        ],
+        "language": "en",
+        "localeUri": "ru-en",
+        "network": "RU",
+        "defaultCountryId": "2017370",
+        "defaultCountryName": "Russia",
+        "locale": "en_RU",
+        "defaultNewsletterSubscriptions": [
+            "RUSSIA"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.sg",
+        "labels": [
+            "sg",
+            "singapore"
+        ],
+        "language": "en",
+        "localeUri": "sg-en",
+        "network": "SG",
+        "defaultCountryId": "1880251",
+        "defaultCountryName": "Singapore",
+        "locale": "en_SG",
+        "defaultNewsletterSubscriptions": [
+            "SINGAPORE"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.co.za",
+        "labels": [
+            "za",
+            "South-Africa"
+        ],
+        "language": "en",
+        "localeUri": "za-en",
+        "network": "ZA",
+        "defaultCountryId": "953987",
+        "defaultCountryName": "South Africa",
+        "locale": "en_ZA",
+        "defaultNewsletterSubscriptions": [
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.se",
+        "labels": [
+            "se",
+            "Sweden"
+        ],
+        "language": "en",
+        "localeUri": "se-en",
+        "network": "SE",
+        "defaultCountryId": "2661886",
+        "defaultCountryName": "Sweden",
+        "locale": "en_SE",
+        "defaultNewsletterSubscriptions": [
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.ch",
+        "labels": [
+            "ch",
+            "Swiss-Default",
+            "Swiss"
+        ],
+        "language": "de",
+        "localeUri": "ch-de",
+        "network": "CH",
+        "defaultCountryId": "2658434",
+        "defaultCountryName": "Switzerland",
+        "locale": "de_CH",
+        "defaultNewsletterSubscriptions": [
+            "SWITZERLAND_IN_GERMAN"
+        ]
+    },
+    {
+        "homepageUrl": "http://www{0}.efinancialcareers.ch/fr",
+        "labels": [
+            "Swiss-FR"
+        ],
+        "language": "fr",
+        "localeUri": "ch-fr",
+        "network": "CH",
+        "defaultCountryId": "2658434",
+        "defaultCountryName": "Switzerland",
+        "locale": "fr_CH",
+        "defaultNewsletterSubscriptions": [
+            "SWITZERLAND_IN_FRENCH"
+        ]
+    },
+    {
+         "homepageUrl": "http://www{0}.efinancialcareers-malaysia.com",
+             "labels": [
+                 "Malaysia"
+             ],
+         "language": "en",
+         "localeUri": "my-en",
+         "network": "UK",
+         "defaultCountryId": "1733045",
+         "defaultCountryName": "Malaysia",
+         "locale": "en_MY",
+         "defaultNewsletterSubscriptions": [
+            "SINGAPORE"
+         ]
+    }
+]

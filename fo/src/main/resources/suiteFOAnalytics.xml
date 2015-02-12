@@ -1,0 +1,78 @@
+<suites>
+    <suite name="local">
+        <dataSets>
+        </dataSets>
+        <stories name="stories">
+            <story include="1" scenarios="0" name="ExpiredJobPage.story" />
+            <story include="1" scenarios="0" name="FooterLinks.story" />
+            <story include="1" scenarios="0" name="HomepageItems.story" />
+            <story include="1" scenarios="0" name="ErrorPages.story" />
+            <story include="1" scenarios="0" name="SiteMapLinks.story" />
+            <story include="1" scenarios="2" name="ExistingUserInternalJobApplicationLoggedInCompletedProfileRemainsUnsearchable.story" datasets="ExistingUserIncompleteProfileInternalJobApplication.groovy" />
+
+            <story include="1" scenarios="1" name="NewUserInternalJobApplicationWithOfccpCompleteProfileMakeSearchable.story" datasets="InternalJobWithOFCCP.groovy" />
+            <story include="1" scenarios="1" name="ExistingUserInternalJobApplicationNotLoggedInProfileSearchable.story" datasets="ExistingUserInternalJobApplicationNotLoggedInProfileSearchable.groovy" />
+            <story include="1" scenarios="1" name="ExistingUserInternalAnonymousJobApplicationNotLoggedInCompletedProfileMakeSearchable.story" datasets="ExistingUserInternalAnonymousJobApplication.groovy" />
+            <story include="1" scenarios="3" name="ExternalJobApplication.story" datasets="ExternalJobApplication.groovy" postJobsUsingAPI="true" />
+            <story include="1" scenarios="1" name="ExternalJobApplicationWithoutLogin.story" datasets="ExternalJobApplicationWithoutLogin.groovy" />
+
+            <story include="1" scenarios="1" name="NewUserInternalJobApplicationWithQuestionnaire.story" datasets="InternalJobWithQuestionnaire.groovy" />
+            <story include="1" scenarios="1" name="UserAttemptsToReapplyForJob.story" datasets="UserAttemptsToReapplyForJob.groovy" />
+            <story include="1" scenarios="1" name="ExistingUserIncompleteJobApplication.story" datasets="ExistingUserIncompleteProfileInternalJobApplication.groovy" />
+
+
+            <story include="1" scenarios="0" name="GulfNewUserJobApplication.story" datasets="InternalJobLocatedInGulf.groovy" />
+            <story include="1" scenarios="0" name="GulfExistingUserJobApplication.story" datasets="ExistingGulfJobSeeker.groovy;InternalJobLocatedInGulf.groovy" />
+            <story include="1" scenarios="0" name="GulfExistingUserRegisteredOnGulfSiteJobApplication.story" datasets="ExistingGulfJobSeeker.groovy;InternalLiveJobInLondon.groovy" />
+            <story include="1" scenarios="1" name="ExistingUserJobsOnThankYouPageBasedOnProfileAndJobSearch.story" datasets="ExistingJobSeekerWithSkills.groovy;InternalLiveJobInLondon.groovy" />
+            <story include="1" scenarios="2" name="ApplyForSavedInternalAndExternalJob.story" datasets="ExternalLiveJobInLondon.groovy;InternalLiveJobInLondon.groovy;JobseekerInLondon.groovy;JobseekerSavedJobs.groovy" />
+
+            <story include="1" scenarios="4" name="CreateSavedSearch.story" />
+            <story include="1" scenarios="2" name="UnsaveJobFromSearchResultsPage.story" datasets="UnsaveJob.groovy" />
+            <story include="1" scenarios="1" name="UnsaveJobFromOverviewPage.story" datasets="UnsaveJob.groovy" />
+            <story include="1" scenarios="0" name="ChangePassword.story" datasets="ExistingMyEfcUser.groovy" />
+            <story include="1" scenarios="0" name="UserDeleteAccount.story" datasets="ExistingMyEfcUser.groovy" />
+            <story include="1" scenarios="0" name="NegativeUserUpdateEmailToExisting.story" datasets="ExistingMyEfcUser.groovy" />
+            <story include="1" scenarios="1" name="ResumeUpload.story" datasets="ExistingMyEfcUser.groovy" />
+            <story include="1" scenarios="1" name="NegativeAttemptingToUploadSixthResume.story" datasets="ExistingUserForNegativeTests.groovy" />
+            <story include="1" scenarios="1" name="HeaderCountValues.story" datasets="HeaderCountValues.groovy" />
+            <story include="1" scenarios="0" name="HeaderCountValuesUpdateAfterUploadingResumesAndCoverLetters.story" datasets="ExistingUserWithEmptyProfile.groovy" />
+            <story include="1" scenarios="1" name="CoverLetterCreateEditAndDelete.story" datasets="ExistingMyEfcUser.groovy" />
+            <story include="1" scenarios="1" name="NegativeAttemptingToCreateSixthCoverLetter.story" datasets="ExistingUserForNegativeTests.groovy" />
+            <story include="1" scenarios="4" name="BoundaryTestingResumeUpload.story" datasets="ExistingMyEfcUser.groovy" />
+
+            <story include="1" scenarios="4" name="CreateSavedSearch.story" />
+            <story include="1" scenarios="1" name="UpdatingSavedSearch.story" datasets="UpdatingSavedSearch.groovy" />
+            <story include="1" scenarios="0" name="RegisterUserAndSubscribeToNewsletter.story" />
+
+            <story include="1" scenarios="0" name="UserLogin.story" />
+            <story include="1" scenarios="0" name="UserLoginSingleSignOn.story" />
+
+            <story include="1" scenarios="0" name="UserLoginSingleSignOnOpenId.story" />
+            <story include="1" scenarios="0" name="RegisterUserAndVerifyAccountFromWelcomeEmail.story" />
+
+            <story include="1" scenarios="0" name="RegisterUserAndVerifyAccountFromVerificationEmail.story" />
+            <story include="1" scenarios="0" name="RegisterUserAndVerifyAllInformationInHeaderIsZero.story" />
+            <story include="1" scenarios="0" name="NegativeUserRegistrationWithExistingDetails.story" />
+
+            <story include="1" scenarios="0" name="UserLoginOpenId.story" />
+            <story include="1" scenarios="0" name="UserForgottenPassword.story" datasets="UserForgottenPassword.groovy" />
+            <story include="1" scenarios="0" name="HeaderLinks.story" />
+            <story include="1" scenarios="0" name="ProfilePrivacySettings.story" datasets="ExistingUserWithCompletedProfile.groovy" />
+            <story include="1" scenarios="0" name="NegativeNotPossibleToMakeIncompleteProfileSearchable.story" datasets="ExistingUserWithIncompleteProfile.groovy" />
+            <story include="1" scenarios="0" name="NewUserProfilePrePopulatedUsingBurningGlass.story" />
+            <story include="1" scenarios="0" name="NewUserProfilePrePopulatedUsingBurningGlassUsingFrenchLens.story" />
+            <story include="1" scenarios="0" name="NewUserCreatesProfileWithMandatoryFieldsPopulatedOnly.story" />
+            <story include="1" scenarios="0" name="NewUserCreatesProfileWithAllFieldsPopulated.story" />
+            <story include="1" scenarios="0" name="CreateYourProfileButtonHomepage.story" datasets="ExistingUserWithEmptyProfile.groovy" />
+            <story include="1" scenarios="1" name="NewArabicSpeakingUserCreatesProfile.story" />
+            <story include="1" scenarios="0" name="LocationSearch.story" />
+            <story include="1" scenarios="0" name="JobOverviewNextPreviousLinks.story" />
+            <story include="1" scenarios="0" name="SortByOptions.story" datasets="SortByOptions.groovy" />
+            <story include="1" scenarios="0" name="JobsSortByBasedOnTitles.story" datasets="JobsSortByBasedOnTitles.groovy" />
+            <story include="1" scenarios="0" name="HomePageSearchModuleLinks.story"/>
+            <story include="1" scenarios="0" name="TearDropOnOverviewPage.story" datasets="InternalLiveJobInLondon.groovy" />
+            <story include="1" scenarios="0" name="TearDropOnOverviewPageForExternalJob.story" datasets="ExternalJobApplicationWithoutLogin.groovy" />
+        </stories>
+    </suite>
+</suites>
