@@ -1,31 +1,18 @@
 package com.efinancialcareers.jbehave.qa.stories;
 
 import com.efinancialcareers.jbehave.qa.steps.FoJobSeekerSteps;
-import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
-import net.thucydides.junit.spring.SpringIntegration;
+import org.jbehave.core.annotations.Alias;
 import org.jbehave.core.annotations.Aliases;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
-import org.junit.Rule;
-import org.junit.runner.RunWith;
-import org.springframework.test.context.ContextConfiguration;
 
-@RunWith(SerenityRunner.class)
-@ContextConfiguration(locations = "/spring-config.xml")
 public class JobSearchSentences extends BaseStorySentences {
-
-    @Rule
-    public SpringIntegration springIntegration = new SpringIntegration();
 
     @Steps
     private FoJobSeekerSteps foEndUser;
-
-    /*@Autowired
-    private Dataload dataload;
-    */
 
     @Given("I am a jobseeker on the FO home page and I login with my normal account")
     public void givenIAmAJobseekerOnTheFOHomePageAndILoginWithMyNormalAccount(
@@ -65,5 +52,16 @@ public class JobSearchSentences extends BaseStorySentences {
     )
     public void applyForThisJob() {
         foEndUser.submitFormToApplyForJob();
+    }
+
+    @Then("my application is sent to the recruiter successfully")
+    public void applicationSuccessfullySentToRecruiter() {
+        foEndUser.assertApplicationSuccessfullySentMessageAppears();
+    }
+
+    @Then("my profile is non searchable")
+    @Alias("my profile is still non searchable")
+    public void thenMyProfileIsNotSearchable() {
+        foEndUser.assertMyProfileIsNotSearchableAccordingToDescriptionInHeader();
     }
 }

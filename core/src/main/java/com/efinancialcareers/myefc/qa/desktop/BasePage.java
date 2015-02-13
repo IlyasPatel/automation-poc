@@ -97,7 +97,7 @@ public class BasePage extends PageObject {
      */
     @WhenPageOpens
     public void makeBrowserWindowFullScreen() {
-        //getDriver().manage().window().maximize();
+        getDriver().manage().window().maximize();
     }
 
     /**

@@ -1,5 +1,6 @@
 package com.efinancialcareers.jbehave.qa.steps;
 
+import com.efinancialcareers.myefc.qa.desktop.ApplicationSuccessPage;
 import com.efinancialcareers.myefc.qa.desktop.ApplyForJobPage;
 import com.efinancialcareers.myefc.qa.desktop.HeaderComponent;
 import com.efinancialcareers.myefc.qa.desktop.Homepage;
@@ -8,25 +9,21 @@ import com.efinancialcareers.myefc.qa.desktop.KeywordLocationComponent;
 import com.efinancialcareers.myefc.qa.desktop.MyEfcLoginPage;
 import com.efinancialcareers.myefc.qa.desktop.SessionData;
 import com.efinancialcareers.myefc.qa.domain.Job;
-import net.serenitybdd.junit.runners.SerenityRunner;
+import com.efinancialcareers.myefc.qa.domain.analytics.AnalyticsDataLayer;
+import com.efinancialcareers.myefc.qa.utils.fo.FoPropertiesLoader;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
-import net.thucydides.junit.spring.SpringIntegration;
 import org.fest.assertions.Assertions;
 import org.junit.Assert;
-import org.junit.Rule;
-import org.junit.runner.RunWith;
 import org.openqa.selenium.Cookie;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
 
-import java.util.ArrayList;
+import java.text.MessageFormat;
 import java.util.List;
 import java.util.Set;
 
-@RunWith(SerenityRunner.class)
-@ContextConfiguration(locations = "/spring-config.xml")
+import static org.hamcrest.Matchers.equalTo;
+
 public class FoJobSeekerSteps extends ScenarioSteps {
 
     private Homepage homepage;
@@ -35,12 +32,11 @@ public class FoJobSeekerSteps extends ScenarioSteps {
     private KeywordLocationComponent keywordLocationComponent;
     private JobSearchResultsPage jobSearchResultsPage;
     private ApplyForJobPage applyForJobPage;
+    private ApplicationSuccessPage applicationSuccessPage;
 
     private Set<Cookie> foCookies;
     private String jobTitleToAssert;
 
-    @Rule
-    public SpringIntegration springIntegration = new SpringIntegration();
 
     /*@Autowired
     private DataLayerGenerator dataLayerGenerator;*/
@@ -156,5 +152,34 @@ public class FoJobSeekerSteps extends ScenarioSteps {
     @Step
     public void submitFormToApplyForJob() {
         applyForJobPage.applyForThisJob();
+    }
+
+    /**
+     * Job successfully applied for
+     */
+    @Step
+    public void assertApplicationSuccessfullySentMessageAppears() {
+
+        Job jobForAssertion = SessionData.INSTANCE.getJobBean();
+
+        String applicationSuccessMessage = MessageFormat.format("Your application for {0} has been sent successfully", jobForAssertion.getJobTitle());
+
+        Assert.assertThat(
+                applicationSuccessPage.getMainHeadingInSuccessAppliedPage(),
+                equalTo(applicationSuccessMessage)
+        );
+
+    }
+
+    /**
+     * Assertion
+     */
+    @Step
+    public void assertMyProfileIsNotSearchableAccordingToDescriptionInHeader() {
+        Assert.assertThat(
+                "Expected profile to be non searchable in header",
+                headerComponent.getProfileSearchStatus(),
+                equalTo("Your profile is not searchable")
+        );
     }
 }

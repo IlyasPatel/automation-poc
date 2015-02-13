@@ -13,7 +13,9 @@ When I search for this job using the job search component and click on the apply
 Then I am taken to the "Apply for a Job" page
 And I untick "I'm interested in being contacted" checkbox
 And then apply for the job
+Then my application is sent to the recruiter successfully
+And my profile is still non searchable
 
 Examples:
 |email|password|
-|testuserSerenity@mailinator.com|testing123|
+|testuserSerenity1@mailinator.com|testing123|

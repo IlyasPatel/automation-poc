@@ -8,7 +8,7 @@
     <name>Automation</name>
 
     <properties>
-        <serenity.version>1.0.26</serenity.version>
+        <serenity.version>1.0.25</serenity.version>
         <serenity.jbehave.version>1.0.12</serenity.jbehave.version>
         <parent.version>2.2</parent.version>
         <redesign.version>3.04-SNAPSHOT</redesign.version>
@@ -27,11 +27,6 @@
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-junit</artifactId>
-            <version>${serenity.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>net.serenity-bdd</groupId>
             <artifactId>core</artifactId>
             <version>${serenity.version}</version>
         </dependency>
@@ -39,11 +34,6 @@
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-jbehave</artifactId>
             <version>${serenity.jbehave.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-spring</artifactId>
-            <version>${serenity.version}</version>
         </dependency>
         <dependency>
             <groupId>org.easytesting</groupId>
