@@ -18,4 +18,4 @@ And my profile is still non searchable
 
 Examples:
 |email|password|
-|testuserSerenity1@mailinator.com|testing123|
+|testuserSerenity4@mailinator.com|testing123|
